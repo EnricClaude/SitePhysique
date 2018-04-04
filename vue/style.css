@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: #ffffff;
+	background-attachment:fixed;
+	color:#000000;
+	font-size:12px;
+}
+
+h1, h2, h3, h4 
+	{
+	margin: 0;
+	padding: 0;
+	color:#6d6d6d;
+	}
+
+h1	{
+	font-size: 28px;
+	margin-top: 50px;
+	}
+a.boutonaccueil {
+	text-decoration:none;
+	font-size:30px;
+	color:white;
+	font-weight:bold;
+}
+a.physique {
+	text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #4e72e9;
+    
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+} 
+a.physique h1{
+	font-size: 30px;
+	text-align:center;
+	color:white;
+}
+a.physique:hover {
+  background-color: #4eb6e9;
+  color: black;
+}
+
+a.mathematique {
+	text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #4e72e9;
+    text-align:center;
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+} 
+a.mathematique h1{
+	font-size: 30px;
+	text-align:center;
+	color:white;
+}
+a.mathematique:hover {
+  background-color: #4eb6e9;
+  color: black;
+}
+div#bandeau{
+	background-color: #4E72e9;
+	height: 50px;
+}
+div#pied{
+	display: block;
+    background-color: #4E72e9;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+div#pied p{
+	color: white;
+    font-weight: bold;
+}
