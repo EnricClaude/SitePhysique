@@ -13,18 +13,15 @@ if (isset($_GET['a'])) $action=$_GET['a']; else $action="";
 switch ($action) {
     //Si aucune action n'est envoy�e dans l'URL on affiche l'accueil
     case "":
-        $contenu='<h1>Site de révision Mathématique & Physique</h1>
+        $contenu='<h1>Site de révision Mathématiques & Physique</h1>
                   <a href="index.php?a=physique" class="physique"><h1> PHYSIQUE</h1> </a>
-                  <a href="index.php?a=mathematique" class="mathematique"><h1> MATHÉMATIQUE</h1> </a>';
+                  <a href="index.php?a=mathematique" class="mathematique"><h1> MATHÉMATIQUES</h1> </a>';
         break;
     case "physique":
         require_once('modele/physique.php');
         break;
-    case "math":
+    case "mathematique":
         require_once('modele/math.php');
-        break;
-    case "impedance":
-        require_once('modele/impedance.php');
         break;
 }
 //Transformation de la page sommaire, les balises sont remplac�es
