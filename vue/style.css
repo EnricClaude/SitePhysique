@@ -17,7 +17,12 @@ h1, h2, h3, h4
 	padding: 0;
 	color:#6d6d6d;
 	}
-
+table{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
 h1	{
 	font-size: 28px;
 	margin-top: 50px;
@@ -103,11 +108,11 @@ div#bandeau{
 	height: 50px;
 }
 div#pied{
-	display: block;
     background-color: #4E72e9;
     height: 40px;
-    position: fixed;
+    position: absolute;
     width: 100%;
+    bottom:0;
 }
 div#pied p{
 	color: white;

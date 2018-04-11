@@ -42,6 +42,6 @@ if(isset($_POST[$filtre]))
 }
 if(isset($_POST[$impedance]))
 {
-    $contenu=$impedance;
+    $contenu= file_get_contents('./vue/Docs/impedance.html');
 }
 ?>
