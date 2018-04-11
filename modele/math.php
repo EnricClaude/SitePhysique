@@ -1,4 +1,4 @@
-<?php $title = 'Physique';?>
+<?php $title = 'Mathématiques';?>
 <?php require('header.php')?>
 
 <?php ob_start(); ?>
@@ -12,14 +12,14 @@ $impedance='<h1>Imp�dance</h1>';
 
 
 <form method="post">
-<input type="submit" method="post" name="<?php echo $bode; ?>" value="Diagramme de Bode (Premier ordre, Deuxi�me ordre) " id="submit"/>
+<input type="submit" method="post" name="<?php echo $bode; ?>" value="Diagramme de Bode (Premier ordre, Deuxième ordre) " id="submit"/>
 </form>
 
 
 
 <form method="post">
 <p>
-<input type="submit" method="post" name="<?php echo $impedance; ?>" value="Imp�dance complexe (loi d\'Ohm,loi des mailles, loi des noeuds..)"> </input>
+<input type="submit" method="post" name="<?php echo $impedance; ?>" value="Impédance complexe (loi d\'Ohm,loi des mailles, loi des noeuds..)"> </input>
 </p>
 
 </form>
